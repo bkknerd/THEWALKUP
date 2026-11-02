@@ -1,0 +1,99 @@
+{
+  "title": "The WalkUp | Cocktail bar in downtown Cary, NC",
+  "logo": "/assets/photo-1.webp",
+  "hero_image": "/assets/photo-9.jpg",
+  "copy": [
+    {
+      "key": "hero_headline",
+      "text": "A little above the usual."
+    },
+    {
+      "key": "hero_eyebrow",
+      "text": "Downtown Cary · One flight up"
+    },
+    {
+      "key": "hero_description",
+      "text": "Cary’s new, stylish, light-filled bar with exposed-brick walls serving classic cocktails, craft beers and great times."
+    },
+    {
+      "key": "menu_heading",
+      "text": "Find your favorites."
+    },
+    {
+      "key": "menu_intro",
+      "text": "Our Beverage Menu changes often, so check it out and find your favorites. Fall / Winter 2026."
+    },
+    {
+      "key": "room_heading",
+      "text": "Room for good company."
+    },
+    {
+      "key": "room_description",
+      "text": "Light-filled, with exposed-brick walls, timber beams and plant-filled lounge spaces. Up one flight of stairs."
+    },
+    {
+      "key": "reviews_heading",
+      "text": "Good nights. Kind words."
+    },
+    {
+      "key": "visit_heading",
+      "text": "Walk on up. 21+ only."
+    },
+    {
+      "key": "visit_description",
+      "text": "We invite you to walk up and check us out. Sign up below to stay in the know."
+    },
+    {
+      "key": "visit_details",
+      "text": "Upstairs, above Happy’s. Laid-back cocktail bar featuring cozy, plant-filled lounge spaces and outdoor seating."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/assets/photo-3.jpg",
+      "alt": "The long bar with a blue base, pendant lights and hanging plants under timber beams",
+      "caption": "The bar"
+    },
+    {
+      "image": "/assets/photo-4.jpg",
+      "alt": "High tables and stools beside a brick wall, skylight above",
+      "caption": "The upper lounge"
+    },
+    {
+      "image": "/assets/photo-5.jpg",
+      "alt": "The printed menu resting on the marble bar top",
+      "caption": "The menu at the bar"
+    },
+    {
+      "image": "/assets/photo-6.jpg",
+      "alt": "Leather sofa and velvet chairs in front of a painted brick wall",
+      "caption": "Lounge seating, and the old painted wall"
+    }
+  ],
+  "hours": [
+    {
+      "days": "1,2,3",
+      "label": "Mon. Tues. Wed.",
+      "time": "4 pm to 11 pm"
+    },
+    {
+      "days": "4,5,6",
+      "label": "Thurs. Fri. Sat.",
+      "time": "4 pm to midnight"
+    },
+    {
+      "days": "0",
+      "label": "Sun",
+      "time": "Closed"
+    }
+  ],
+  "phone": "(919) 378-9009",
+  "email": "thewalkupcary@gmail.com",
+  "address": "126 West Chatham Street, #200\nCary, NC 27511",
+  "seating": "Indoors and outdoors, no reservations",
+  "budget": "$10 to $20",
+  "directions": "https://www.google.com/maps/dir//The+WalkUp,+126+W+Chatham+St+%23200,+Cary,+NC+27511/@35.7873901,-78.7823751,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89acf3d9d159a8e5:0x28a6b31597a29bf3!2m2!1d-78.7823751!2d35.7873901!3e0",
+  "instagram": "https://www.instagram.com/thewalkupcary/",
+  "facebook": "https://www.facebook.com/thewalkupcary",
+  "footer": "© 2024 by Pharmacy Inc. Site by Draft & Logic."
+}

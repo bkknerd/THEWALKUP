@@ -1,0 +1,107 @@
+{
+  "drinks": [
+    {
+      "name": "Ranch Water",
+      "glass": "highball",
+      "color": "#c5cba1",
+      "ingredients": [
+        "Your choice of house vodka, tequila, gin, or rum",
+        "lime juice",
+        "Jarritos mineral water"
+      ]
+    },
+    {
+      "name": "Iced Irish Coffee",
+      "glass": "highball",
+      "color": "#805333",
+      "ingredients": [
+        "Jameson",
+        "house cold brew",
+        "turbinado syrup"
+      ]
+    },
+    {
+      "name": "Espresso Martini",
+      "glass": "coupe",
+      "color": "#785039",
+      "ingredients": [
+        "Vodka",
+        "Borghetti",
+        "Averna",
+        "house cold brew",
+        "chocolate bitters"
+      ]
+    },
+    {
+      "name": "Casting Call",
+      "glass": "coupe",
+      "color": "#d2bf7e",
+      "ingredients": [
+        "Vodka",
+        "Italicus liqueur",
+        "orgeat",
+        "lemon",
+        "cardamom bitters"
+      ]
+    },
+    {
+      "name": "Seasoned Professional",
+      "glass": "rocks",
+      "color": "#b17c42",
+      "ingredients": [
+        "Rye whiskey",
+        "ginger simple syrup",
+        "sweet vermouth",
+        "black walnut bitters"
+      ]
+    },
+    {
+      "name": "Clean & Cozy",
+      "glass": "rocks",
+      "color": "#b6b07c",
+      "ingredients": [
+        "Miso rum",
+        "Velvet Falernum",
+        "Lillet Blanc",
+        "lime",
+        "tiki bitters"
+      ]
+    },
+    {
+      "name": "8.7 Ambiance",
+      "glass": "highball",
+      "color": "#b8c08e",
+      "ingredients": [
+        "Basil-infused gin",
+        "Strega",
+        "dry vermouth",
+        "lemon",
+        "honey",
+        "soda"
+      ]
+    },
+    {
+      "name": "Zing & Pep",
+      "glass": "rocks",
+      "color": "#8c553a",
+      "ingredients": [
+        "Cacao-infused reposado tequila",
+        "Ancho Reyes",
+        "sweet vermouth",
+        "cold brew"
+      ]
+    },
+    {
+      "name": "Modified Behavior",
+      "glass": "coupe",
+      "color": "#cf9a86",
+      "ingredients": [
+        "Grapefruit",
+        "lime",
+        "agave",
+        "soda",
+        "N/A sparkling wine"
+      ]
+    }
+  ]
+}

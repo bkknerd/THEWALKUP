@@ -1,0 +1,208 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_OWNER/YOUR_REPOSITORY
+  branch: main
+media_folder: assets/uploads
+public_folder: /assets/uploads
+publish_mode: simple
+collections:
+- name: website
+  label: Website content
+  files:
+  - name: site
+    label: Site, gallery & hours
+    file: content/site.json
+    fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Logo
+      name: logo
+      widget: image
+    - label: Hero Image
+      name: hero_image
+      widget: image
+    - label: Copy
+      name: copy
+      widget: list
+      fields:
+      - label: Key
+        name: key
+        widget: string
+        hint: Keep this identifier unchanged; edit the text only.
+      - label: Text
+        name: text
+        widget: text
+    - label: Gallery
+      name: gallery
+      widget: list
+      fields:
+      - label: Image
+        name: image
+        widget: image
+      - label: Alt
+        name: alt
+        widget: string
+      - label: Caption
+        name: caption
+        widget: string
+    - label: Hours
+      name: hours
+      widget: list
+      fields:
+      - label: Days
+        name: days
+        widget: string
+        hint: 0 Sunday through 6 Saturday; separate days with commas.
+      - label: Label
+        name: label
+        widget: string
+      - label: Time
+        name: time
+        widget: string
+    - label: Address
+      name: address
+      widget: text
+    - label: Phone
+      name: phone
+      widget: string
+    - label: Email
+      name: email
+      widget: string
+    - label: Seating
+      name: seating
+      widget: string
+    - label: Budget
+      name: budget
+      widget: string
+    - label: Directions
+      name: directions
+      widget: string
+    - label: Instagram
+      name: instagram
+      widget: string
+    - label: Facebook
+      name: facebook
+      widget: string
+    - label: Footer
+      name: footer
+      widget: string
+  - name: menu
+    label: Menu & prices
+    file: content/menu.json
+    fields:
+    - label: Categories
+      name: categories
+      widget: list
+      fields:
+      - label: Name
+        name: name
+        widget: string
+      - label: Groups
+        name: groups
+        widget: list
+        fields:
+        - label: Title
+          name: title
+          widget: string
+        - label: Items
+          name: items
+          widget: list
+          fields:
+          - label: Name
+            name: name
+            widget: string
+          - label: Subheading
+            name: subheading
+            widget: boolean
+            default: false
+          - label: Price
+            name: price
+            widget: number
+            value_type: float
+            min: 0
+          - label: Description
+            name: description
+            widget: text
+            required: false
+  - name: animations
+    label: Cocktail animations
+    file: content/animations.json
+    fields:
+    - label: Drinks
+      name: drinks
+      widget: list
+      fields:
+      - label: Name
+        name: name
+        widget: string
+        hint: Must exactly match a menu item; remove entry to disable animation.
+      - label: Glass
+        name: glass
+        widget: select
+        options:
+        - coupe
+        - rocks
+        - highball
+      - label: Color
+        name: color
+        widget: string
+        pattern:
+        - ^#[0-9a-fA-F]{6}$
+        - Use a six-digit hex color.
+      - label: Ingredients
+        name: ingredients
+        widget: list
+        field:
+          label: Ingredient
+          name: ingredient
+          widget: string
+  - name: reviews
+    label: Reviews
+    file: content/reviews.json
+    fields:
+    - label: Reviews
+      name: reviews
+      widget: list
+      fields:
+      - label: Name
+        name: name
+        widget: string
+      - label: Attribution
+        name: attribution
+        widget: string
+      - label: Quote
+        name: quote
+        widget: text
+  - name: cinema
+    label: Cocktails on Film
+    file: content/cinema.json
+    fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Intro
+      name: intro
+      widget: text
+    - label: Notice
+      name: notice
+      widget: text
+    - label: Drinks
+      name: drinks
+      widget: list
+      fields:
+      - label: Name
+        name: name
+        widget: string
+      - label: Film
+        name: film
+        widget: string
+      - label: Note
+        name: note
+        widget: text
+      - label: Ingredients
+        name: ingredients
+        widget: text
+      - label: Source
+        name: source
+        widget: string

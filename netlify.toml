@@ -1,0 +1,25 @@
+[build]
+  command = "python3 build.py"
+  publish = "."
+
+[[redirects]]
+  from = "/inbox"
+  to = "/admin/inbox/"
+  status = 302
+
+[[redirects]]
+  from = "/cms"
+  to = "/admin/"
+  status = 302
+
+[[redirects]]
+  from = "/templates/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/content/*"
+  to = "/404.html"
+  status = 404
+  force = true

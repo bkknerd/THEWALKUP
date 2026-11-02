@@ -1,0 +1,42 @@
+{
+  "title": "Cocktails on Film",
+  "intro": "Familiar drinks. Unforgettable scenes. A short guide to cocktails with a place in movie history.",
+  "notice": "Independent editorial content, not an extension of our beverage menu. Ingredient lists describe common versions, not exact on-screen recipes. Ask the bar about availability.",
+  "drinks": [
+    {
+      "name": "White Russian",
+      "film": "The Big Lebowski",
+      "note": "The Dude’s signature order gives this creamy coffee cocktail a central place in the film’s identity.",
+      "ingredients": "Vodka · Coffee liqueur · Cream",
+      "source": "https://www.decocktailconsultant.nl/en/post/the-big-lebowski-5-cocktails-with-a-story"
+    },
+    {
+      "name": "Vesper",
+      "film": "Casino Royale",
+      "note": "Bond’s gin-and-vodka drink originated in Ian Fleming’s novel before its screen appearance. Modern versions often use Lillet Blanc in place of the original Kina Lillet.",
+      "ingredients": "Gin · Vodka · Lillet Blanc · Lemon twist",
+      "source": "https://www.liquor.com/recipes/vesper/"
+    },
+    {
+      "name": "Dry Martini",
+      "film": "The Thin Man",
+      "note": "Nick and Nora Charles helped make the Martini a screen icon. The Nick & Nora glass takes its name from the fictional detective couple.",
+      "ingredients": "Gin · Dry vermouth · Olive or lemon twist",
+      "source": "https://www.liquor.com/martini-styles-evolution-7509207"
+    },
+    {
+      "name": "French 75",
+      "film": "Casablanca",
+      "note": "Ordered at Rick’s Café, this sparkling cocktail belongs to the film’s world of late-night conversations and complicated loyalties.",
+      "ingredients": "Gin · Lemon juice · Sugar · Champagne",
+      "source": "https://www.koktejl.cz/zajimavosti/francie-historie-koktejlu-french-75/"
+    },
+    {
+      "name": "Champagne Cocktail",
+      "film": "Casablanca",
+      "note": "The Champagne Cocktail is another classic ordered in the film, pairing sugar and bitters with sparkling wine.",
+      "ingredients": "Champagne · Sugar cube · Aromatic bitters",
+      "source": "https://www.youtube.com/watch?v=YfVDJnQjXQg"
+    }
+  ]
+}
